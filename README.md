@@ -3,7 +3,7 @@ Authentication: Secure Login/Signup flow using Firebase Auth.
 
 Real-time Database: Cloud Firestore for dynamic data management.
 
-State Management: (لو بدأت Cubit/Bloc اكتبه هنا، لو لسه اكتب: Optimized UI updates with structured state logic).
+State Management:  Optimized UI updates with structured state logic).
 
 API Integration: Weather services integrated using Dio & Singleton Pattern.
 

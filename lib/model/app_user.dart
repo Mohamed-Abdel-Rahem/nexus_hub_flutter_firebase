@@ -40,5 +40,6 @@ class AppUser {
   }
 
   @override
-  String toString() => 'AppUser(name: $name, email: $email)';
+  String toString() =>
+      'AppUser(name: $name, email: $email, phone: $phone, uid: $uid, address: $address)';
 }

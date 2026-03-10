@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nexus_hub_flutter_firebase/screens/home.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:nexus_hub_flutter_firebase/screens/login.dart';
 import 'package:nexus_hub_flutter_firebase/screens/spalshScreen.dart';
 import 'firebase_options.dart';
 
@@ -20,7 +21,7 @@ class FirebaseApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
-      home: SpalshScreen(),
+      home: LoginScreen(),
     );
   }
 }

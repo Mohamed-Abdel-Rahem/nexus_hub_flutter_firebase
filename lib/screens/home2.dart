@@ -6,11 +6,10 @@ import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:nexus_hub_flutter_firebase/model/app_user.dart';
-import 'package:nexus_hub_flutter_firebase/model/cloud_model.dart';
+import 'package:nexus_hub_flutter_firebase/services/cloud_model.dart';
 import 'package:nexus_hub_flutter_firebase/model/extension.dart';
 import 'package:nexus_hub_flutter_firebase/screens/home.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_storage/firebase_storage.dart';
 
 class HomePage2 extends StatefulWidget {
   const HomePage2({super.key});
@@ -23,7 +22,7 @@ class _HomePage2State extends State<HomePage2> {
   final FirebaseAuth _auth = FirebaseAuth.instance;
   final DatabaseReference _db = FirebaseDatabase.instance.ref();
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;
-  final Reference _storageRef = FirebaseStorage.instance.ref();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

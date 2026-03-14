@@ -42,6 +42,7 @@ dependencies:
   firebase_storage: ^13.1.0
   dio: ^5.9.2
   cached_network_image: 
+  modal_progress_hud_nsn: ^0.5.1
   
 
 dev_dependencies:

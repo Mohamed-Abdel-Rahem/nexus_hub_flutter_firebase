@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:nexus_hub_flutter_firebase/screens/home.dart';
+
 import 'package:firebase_core/firebase_core.dart';
-import 'package:nexus_hub_flutter_firebase/screens/login.dart';
-import 'package:nexus_hub_flutter_firebase/screens/spalshScreen.dart';
+import 'package:nexus_hub_flutter_firebase/screens/auth/login.dart';
+import 'package:nexus_hub_flutter_firebase/screens/data_read.dart';
+
 import 'firebase_options.dart';
 
 void main() async {

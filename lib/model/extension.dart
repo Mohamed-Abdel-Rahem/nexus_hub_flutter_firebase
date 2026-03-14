@@ -7,7 +7,7 @@ extension SnakBarExtension on BuildContext {
         content: Text(message),
         backgroundColor: color,
         behavior: SnackBarBehavior.floating,
-        duration: const Duration(seconds: 2),
+        duration: const Duration(seconds: 10),
       ),
     );
   }
